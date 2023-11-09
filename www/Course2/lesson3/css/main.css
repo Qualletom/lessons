@@ -1,0 +1,9 @@
+.block {
+  width: 400px;
+  height: 200px;
+  background-color: grey;
+}
+
+.block h1 {
+  color: blue;
+}
