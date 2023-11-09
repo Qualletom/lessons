@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+
+@font-face {
+  font-family: "Museo";
+  src: url("../fonts/museo/Museo-300.eot");
+  src: local("Museo 300"), local("Museo-300"),
+    url("../fonts/museo/Museo-300.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/museo/Museo-300.woff2") format("woff2"),
+    url("../fonts/museo/Museo-300.woff") format("woff"),
+    url("../fonts/museo/Museo-300.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

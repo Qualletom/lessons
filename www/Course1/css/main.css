@@ -1,0 +1,26 @@
+.table-header {
+  display: flex;
+  align-items: center;
+}
+
+.table-header img {
+  margin-left: 5px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-top: 20px;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.form *:nth-child(n + 2) {
+  margin-top: 10px;
+}
+
+.form fieldset {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,19 @@
+.block {
+  height: 200px;
+  width: 600px;
+  background-color: red;
+}
+
+@media (max-width: 600px) {
+  .block {
+    width: 200px;
+    background-color: blue;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+  .block {
+    width: 500px;
+    background-color: green;
+  }
+}

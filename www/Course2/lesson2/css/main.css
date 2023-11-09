@@ -1,0 +1,31 @@
+.blue-p {
+  color: blue;
+}
+
+.green-p {
+  font-size: 16px;
+  color: #008000;
+}
+
+.oswald-p {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  color: red;
+  font-style: italic;
+  font-size: 24px;
+}
+
+.amatic-p {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+.museo-span {
+  display: block;
+  width: 500px;
+  font-family: "Museo";
+  font-size: 24px;
+  color: green;
+  line-height: 50px;
+}

@@ -1,0 +1,91 @@
+body {
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  background-image: url("../pictures/wood-texture.jpg");
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 1200px;
+  min-height: 100vh;
+}
+
+.header {
+  height: 50px;
+  background-color: red;
+}
+
+.slider {
+  height: 100px;
+  background-color: rebeccapurple;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
+  min-height: 400px;
+  background-color: yellowgreen;
+  padding: 5px 10px;
+}
+
+.service {
+  height: 300px;
+  width: 200px;
+  background-color: navy;
+  margin: 5px 0;
+}
+
+.reviews {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
+  background-color: blanchedalmond;
+  flex: 1;
+}
+
+.review {
+  height: 200px;
+  width: 190px;
+  background-color: mediumseagreen;
+  border: 2px solid black;
+  margin: 5px 0;
+}
+
+.footer {
+  min-height: 60px;
+  background-color: grey;
+}
+
+@media (min-width: 720px) {
+  .services {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+  .reviews {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .services {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .review {
+    width: 250px;
+  }
+}

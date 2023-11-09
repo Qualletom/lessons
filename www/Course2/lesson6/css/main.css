@@ -1,0 +1,9 @@
+.span {
+  font-size: 30px;
+}
+
+.interactive-span:hover {
+  font-size: 30px;
+  color: red;
+  transition: all 0.5s;
+}

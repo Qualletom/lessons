@@ -1,0 +1,43 @@
+.block {
+  width: 300px;
+  height: 200px;
+  border: 2px solid black;
+}
+
+.block-yellow {
+  background-color: yellow;
+}
+
+.block-green {
+  background-color: green;
+  position: relative;
+  top: 50px;
+  left: 20px;
+}
+
+.block-red {
+  position: absolute;
+  top: 100px;
+  left: 150px;
+  z-index: -1;
+  background-color: red;
+}
+
+.block-text {
+  margin: 20px 0;
+  overflow: auto;
+}
+
+.red-span {
+  padding: 10px;
+  background-color: red;
+}
+
+.circle-span {
+  display: block;
+  margin-top: 30px;
+  width: 100px;
+  height: 20px;
+  border-radius: 25px;
+  background-color: blueviolet;
+}
