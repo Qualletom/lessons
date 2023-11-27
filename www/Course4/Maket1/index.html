@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/fonts.css">
+  <link rel="stylesheet" href="./css/slider.css">
+  <link rel="stylesheet" href="./css/menu.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="content">
+    <header class="header">
+      <a href="#">
+        <img src="./pictures/logo.png" alt="logo" class="logo-image">
+      </a>
+      <input id="menu-toggle" type="checkbox" />
+      <nav class="menu">
+        <ul>
+          <li><a href="#">Услуги</a></li>
+          <li><a href="#">Портфолио</a></li>
+          <li><a href="#">Отзывы</a></li>
+          <li><a href="#">О нас</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+      <label class='menu-button-container' for="menu-toggle">
+        <div class='menu-button'></div>
+      </label>
+    </header>
+    <main class="main">
+      <div class="carousel-wrapper">
+        <input id="slide1" type="radio" name="controls" checked="checked" />
+        <input id="slide2" type="radio" name="controls" />
+        <input id="slide3" type="radio" name="controls" />
+
+        <label for="slide1" class="left-arrow">
+          <img src="./svg/arrow-left.svg" alt="space" class="carousel-arrow-img" width="21" height="42" />
+        </label>
+        <label for="slide2" class="left-arrow">
+          <img src="./svg/arrow-left.svg" alt="space" class="carousel-arrow-img" width="21" height="42" />
+        </label>
+        <label for="slide3" class="left-arrow">
+          <img src="./svg/arrow-left.svg" alt="space" class="carousel-arrow-img" width="21" height="42" />
+        </label>
+
+        <label for="slide1" class="right-arrow">
+          <img src="./svg/arrow-right.svg" alt="space" class="carousel-arrow-img" width="21" height="42" />
+        </label>
+        <label for="slide2" class="right-arrow">
+          <img src="./svg/arrow-right.svg" alt="space" class="carousel-arrow-img" width="21" height="42" />
+        </label>
+        <label for="slide3" class="right-arrow">
+          <img src="./svg/arrow-right.svg" alt="space" class="carousel-arrow-img" width="21" height="42" />
+        </label>
+
+        <div class="carousel">
+          <ul>
+            <li>
+              <span class="carousel-heading">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's </span>
+              <img src="./pictures/slide1.jpg" alt="slide 1" />
+            </li>
+            <li>
+              <span class="carousel-heading">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's </span>
+              <img src="./pictures/slide2.jpg" alt="slide 2">
+            </li>
+            <li>
+              <span class="carousel-heading">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's </span>
+              <img src="./pictures/slide3.jpg" alt="slide 3" />
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="services-section">
+        <div class="section-header">
+          <span class="section-heading">Our services</span>
+          <span class="section-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the
+            industry's </span>
+        </div>
+        <div class="services-container">
+          <div class="service">
+            <img src="./pictures/service-dog1.png" alt="service dog 1">
+            <span class="service-header">Styling</span>
+            <p class="service-description">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry's
+            </p>
+            <a href="#" class="service-details-btn">More details</a>
+          </div>
+          <div class="service">
+            <img src="./pictures/service-dog2.png" alt="service dog 2">
+            <span class="service-header">Lorem</span>
+            <p class="service-description">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry's
+            </p>
+            <a href="#" class="service-details-btn">More details</a>
+          </div>
+          <div class="service">
+            <img src="./pictures/service-dog3.png" alt="service dog 3">
+            <span class="service-header">Lorem</span>
+            <p class="service-description">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry's
+            </p>
+            <a href="#" class="service-details-btn">More details</a>
+          </div>
+        </div>
+      </div>
+      <div class="testimonials-section">
+        <div class="section-header">
+          <span class="section-heading">Testimonials</span>
+        </div>
+        <div class="testimonials-container">
+          <div class="testimonial">
+            <div class="testimonial-img">
+              <img src="./pictures/testimonial-image.jpg" alt="testimonial 1">
+            </div>
+            <div class="testimonial-body">
+              <span class="testimonial-header">Sarah Barrow</span>
+              <p class="service-description">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries
+              </p>
+            </div>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial-img">
+              <img src="./pictures/testimonial-image.jpg" alt="testimonial 2">
+            </div>
+            <div class="testimonial-body">
+              <span class="testimonial-header">Sarah Barrow</span>
+              <p class="testimonial-description">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries
+              </p>
+            </div>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial-img">
+              <img src="./pictures/testimonial-image.jpg" alt="testimonial 3">
+            </div>
+            <div class="testimonial-body">
+              <span class="testimonial-header">Sarah Barrow</span>
+              <p class="testimonial-description">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries
+              </p>
+            </div>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial-img">
+              <img src="./pictures/testimonial-image.jpg" alt="testimonial 1">
+            </div>
+            <div class="testimonial-body">
+              <span class="testimonial-header">Sarah Barrow</span>
+              <p class="testimonial-description">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-body">
+        <div class="socials">
+          <a href="#"><img src="./svg/instagram.svg" alt="instagram"></a>
+          <a href="#"><img src="./svg/youtube.svg" alt="youtube"></a>
+          <a href="#"><img src="./svg/tiktok.svg" alt="tiktok"></a>
+          <a href="#"><img src="./svg/facebook.svg" alt="facebook"></a>
+        </div>
+        <ul>
+          <li><a href="#">Услуги</a></li>
+          <li><a href="#">Портфолио</a></li>
+          <li><a href="#">Отзывы</a></li>
+          <li><a href="#">О нас</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-copyright">
+        Copyright ©2023; Designed by Ailaksey
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

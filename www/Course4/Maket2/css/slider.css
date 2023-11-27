@@ -1,0 +1,162 @@
+.carousel-wrapper {
+  display: flex;
+  position: relative;
+}
+
+.carousel-wrapper input {
+  display: none;
+}
+
+.carousel-wrapper label img {
+  display: block;
+}
+
+.carousel {
+  overflow: hidden;
+}
+
+.carousel ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0;
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 200%;
+  transition: left .8s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.carousel li {
+  position: relative;
+  width: 100%;
+}
+
+.carousel li img {
+  display: block;
+  width: 100%;
+}
+
+.carousel-heading {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 85%;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 14px;
+  color: #000;
+}
+
+.carousel-heading h4 {
+  font-size: 18px;
+  color: #fff;
+  margin: 0;
+}
+
+.carousel-heading h3 {
+  font-size: 28px;
+  font-weight: 500;
+  color: #FFC513;
+  margin: 8px 0 18px;
+}
+
+.carousel-heading span {
+  font-size: 9px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.carousel-arrow-img {
+  width: 21px;
+  height: 42px;
+  stroke: #427AB4;
+}
+
+.left-arrow,
+.right-arrow {
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  transform: translateY(-50%);
+  top: 50%;
+  z-index: 1;
+  transition: 0.2s;
+}
+
+.left-arrow:hover,
+.right-arrow:hover {
+  opacity: 0.8;
+}
+
+.left-arrow:active,
+.right-arrow:active {
+  opacity: 0.5;
+}
+
+.left-arrow {
+  left: 3%;
+}
+
+.right-arrow {
+  right: 3%;
+}
+
+#slide1:checked~.carousel ul {
+  left: 0%;
+}
+
+#slide2:checked~.carousel ul {
+  left: -100%;
+}
+
+#slide1:checked~.left-arrow[for=slide2],
+#slide1:checked~.right-arrow[for=slide2] {
+  display: block;
+}
+
+#slide2:checked~.left-arrow[for=slide1],
+#slide2:checked~.right-arrow[for=slide1] {
+  display: block;
+}
+
+@media (min-width: 380px) {
+  .carousel-heading h3 {
+    margin: 16px 0 36px;
+  }
+}
+
+@media (min-width: 640px) {
+  .carousel .carousel-heading h4 {
+    font-size: 28px;
+  }
+
+  .carousel .carousel-heading h3 {
+    font-size: 60px;
+  }
+
+  .carousel .carousel-heading span {
+    font-size: 14px;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .carousel .carousel-heading h4 {
+    font-size: 42px;
+  }
+
+  .carousel .carousel-heading h3 {
+    font-size: 80px;
+  }
+
+  .carousel .carousel-heading span {
+    font-size: 20px;
+  }
+}

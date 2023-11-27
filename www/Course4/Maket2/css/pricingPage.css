@@ -1,0 +1,40 @@
+.pricing-content {
+  padding: 20px 5px;
+}
+
+.pricing-table {
+  border: 1px solid #B9B9B9;
+  border-collapse: collapse;
+  width: 100%;
+
+  & th,
+  & td {
+    border: 1px solid #B9B9B9;
+    padding: 10px 12px;
+    font-size: 16px;
+  }
+
+  & th {
+    background-color: rgba(0, 0, 0, 0.06);
+    text-align: start;
+  }
+
+  & .table-first-col {
+    width: 50%;
+  }
+
+  & .table-second-col {
+    width: 25%;
+  }
+}
+
+@media (max-width: 768px) {
+  .pricing-table {
+
+    & th,
+    & td {
+      font-size: 14px;
+    }
+
+  }
+}

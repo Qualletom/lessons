@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 140px;
+  width: 100px;
+  background-color: #aeaef6;
+  border-radius: 10px;
+  border: 2px solid #1d1281;
+  padding: 12px;
+}
+
+.circle {
+  width: 53px;
+  height: 53px;
+  background-color: #e0e0ff;
+  border-radius: 50%;
+  border: 2px solid #1d1281;
+}
+
+.text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  align-self: flex-start;
+  color: white;
+  margin: 0;
+}

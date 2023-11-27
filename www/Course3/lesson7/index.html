@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/fonts.css">
+  <link rel="stylesheet" href="./css/slider.css">
+  <link rel="stylesheet" href="./css/menu.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+  <script src="./js/main.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="header-wrapper">
+    <div class="header">
+      <a href="#">
+        <img src="./pictures/logo.png" alt="logo" class="logo-image">
+      </a>
+      <input id="menu-toggle" type="checkbox" />
+      <nav class="menu">
+        <ul>
+          <li><a href="#">Новости</a></li>
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">Статьи</a></li>
+          <li><a href="#">О нас</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="order-call-popup-wrapper">
+        <div class="order-call-popup-btn">
+          Заказать звонок
+        </div>
+        <div class="order-call-popup hidden">
+          <img src="./svg/close.svg" alt="close" class="order-call-popup-close-btn" width="30" height="30">
+          <form onsubmit="return false;" class="order-call-popup-form">
+            <input type="text" class="order-call-popup-input" name="name" placeholder="Введите имя">
+            <input type="number" class="order-call-popup-input" name="phone_number"
+              placeholder="Введите номер телефона">
+            <textarea cols="10" rows="4" name="comment" class="order-call-popup-input"
+              placeholder="Напишите комментарий"></textarea>
+            <input type="submit" value="Отправить" class="order-call-popup-submit-btn">
+          </form>
+        </div>
+      </div>
+
+      <label class='menu-button-container' for="menu-toggle">
+        <div class='menu-button'></div>
+      </label>
+    </div>
+  </header>
+  <div class="content">
+    <main class="main">
+      <div class="carousel-wrapper">
+        <input id="slide1" type="radio" name="controls" checked="checked" />
+        <input id="slide2" type="radio" name="controls" />
+        <input id="slide3" type="radio" name="controls" />
+
+        <label for="slide1" class="left-arrow">
+          <img src="./svg/arrow-left.svg" alt="space" class="carousel-arrow-img" width="20" height="40" />
+        </label>
+        <label for="slide2" class="left-arrow">
+          <img src="./svg/arrow-left.svg" alt="space" class="carousel-arrow-img" width="20" height="40" />
+        </label>
+        <label for="slide3" class="left-arrow">
+          <img src="./svg/arrow-left.svg" alt="space" class="carousel-arrow-img" width="20" height="40" />
+        </label>
+
+        <label for="slide1" class="right-arrow">
+          <img src="./svg/arrow-right.svg" alt="space" class="carousel-arrow-img" width="20" height="40" />
+        </label>
+        <label for="slide2" class="right-arrow">
+          <img src="./svg/arrow-right.svg" alt="space" class="carousel-arrow-img" width="20" height="40" />
+        </label>
+        <label for="slide3" class="right-arrow">
+          <img src="./svg/arrow-right.svg" alt="space" class="carousel-arrow-img" width="20" height="40" />
+        </label>
+
+        <div class="carousel">
+          <ul>
+            <li>
+              <span class="carousel-heading">Космос</span>
+              <img src="./pictures/space.jpg" alt="space" />
+            </li>
+            <li>
+              <span class="carousel-heading">Технологии</span>
+              <img src="./pictures/technology.jpg" alt="technology">
+            </li>
+            <li>
+              <span class="carousel-heading">Авто</span>
+              <img src="./pictures/cars.jpg" alt="cars" />
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="services-section">
+        <div class="service">
+          <span class="service-header">Lorem</span>
+          <div class="service-image"></div>
+          <p class="service-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+          </p>
+        </div>
+        <div class="service">
+          <span class="service-header">Lorem</span>
+          <div class="service-image"></div>
+          <p class="service-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+          </p>
+        </div>
+        <div class="service">
+          <span class="service-header">Lorem</span>
+          <div class="service-image"></div>
+          <p class="service-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+          </p>
+        </div>
+        <div class="service">
+          <span class="service-header">Lorem</span>
+          <div class="service-image"></div>
+          <p class="service-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+          </p>
+        </div>
+        <div class="service">
+          <span class="service-header">Lorem</span>
+          <div class="service-image"></div>
+          <p class="service-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+          </p>
+        </div>
+        <div class="service">
+          <span class="service-header">Lorem</span>
+          <div class="service-image"></div>
+          <p class="service-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+          </p>
+        </div>
+        <div class="service">
+          <span class="service-header">Lorem</span>
+          <div class="service-image"></div>
+          <p class="service-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+          </p>
+        </div>
+        <div class="service">
+          <span class="service-header">Lorem</span>
+          <div class="service-image"></div>
+          <p class="service-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+          </p>
+        </div>
+        <div class="service">
+          <span class="service-header">Lorem</span>
+          <div class="service-image"></div>
+          <p class="service-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+          </p>
+        </div>
+      </div>
+      <div class="subscribe-section">
+        <form onsubmit="return false;" class="subscribe-form">
+          <span class="subscribe-header">Подпишитесь на наши новости</span>
+          <div class="subscribe-content">
+            <input type="email" class="subscribe-email" placeholder="Укажите свою почту">
+            <input type="submit" value="Подписаться" class="subscribe-submit-btn">
+          </div>
+        </form>
+      </div>
+    </main>
+
+  </div>
+  <footer class="footer">
+    <ul>
+      <li class="footer-header">Темы новостей</li>
+      <li><a href="#">Космос</a></li>
+      <li><a href="#">Авто</a></li>
+      <li><a href="#">Технологии</a></li>
+    </ul>
+  </footer>
+</body>
+
+</html>

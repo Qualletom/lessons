@@ -1,0 +1,41 @@
+.service-content {
+  padding: 45px 10px 30px;
+  color: #7A7A7A;
+  font-size: 20px;
+}
+
+.service-content-header {
+  margin-top: 0;
+  font-weight: 500;
+  text-align: center;
+  color: #000;
+  white-space: break-spaces;
+}
+
+.main-img {
+  display: block;
+  float: left;
+  max-width: 715px;
+  width: 100%;
+  margin: 0 30px 30px 0;
+}
+
+@media (max-width: 768px) {
+  .service-content-header {
+    font-size: 30px;
+  }
+
+  .service-content p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 500px) {
+  .service-content-header {
+    font-size: 20px;
+  }
+
+  .service-content p {
+    font-size: 18px;
+  }
+}
