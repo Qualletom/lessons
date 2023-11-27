@@ -1,0 +1,122 @@
+.button {
+  display: inline-block;
+  color: brown;
+  text-decoration: none;
+  padding: 3px 4px;
+  border: 2px solid;
+  border-radius: 1px;
+  transition: 0.2s;
+}
+
+.button:hover {
+  background-color: green;
+}
+
+.navbar {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  display: flex;
+  column-gap: 5px;
+  margin-top: 25px;
+}
+
+.navbar a {
+  text-decoration: none;
+  background: #30A8E6;
+  color: #fff;
+  padding: 10px;
+  font-family: arial;
+  border-radius: 4px;
+  transition: all 0.3s 0.01s ease;
+}
+
+.navbar a:hover {
+  background: #1C85BB;
+}
+
+.cols-float-wrapper {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.cols-float {
+  overflow: hidden;
+  float: left;
+  width: 30%;
+  background: #fff2e1;
+  margin: 1%;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.clearboth {
+  clear: both;
+}
+
+.cols-flex-wrapper {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cols-flex {
+  background: #fff2e1;
+  padding: 5px;
+  border-radius: 5px;
+  width: 30%;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  text-align: center;
+  font-family: arial;
+  margin: 20px auto 0;
+}
+
+.card img {
+  width: 100%;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th {
+  font-weight: bold;
+  padding: 5px;
+  background: #efefef;
+  border: 1px solid #dddddd;
+}
+
+.table td {
+  border: 1px solid #dddddd;
+  padding: 5px;
+}

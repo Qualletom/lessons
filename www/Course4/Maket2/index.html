@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/fonts.css">
+  <link rel="stylesheet" href="./css/slider.css">
+  <link rel="stylesheet" href="./css/menu.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="content">
+    <header class="header">
+      <a href="#">
+        <img src="./pictures/logo.png" alt="logo" class="logo-image">
+      </a>
+      <input id="menu-toggle" type="checkbox" />
+      <nav class="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="./pricing.html">Pricing</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+      </nav>
+      <label class='menu-button-container' for="menu-toggle">
+        <div class='menu-button'></div>
+      </label>
+    </header>
+    <main class="main">
+      <div class="carousel-wrapper">
+        <input id="slide1" type="radio" name="controls" checked="checked" />
+        <input id="slide2" type="radio" name="controls" />
+
+        <label for="slide1" class="left-arrow">
+          <img src="./svg/arrow-left.svg" alt="space" class="carousel-arrow-img" width="21" height="42" />
+        </label>
+        <label for="slide2" class="left-arrow">
+          <img src="./svg/arrow-left.svg" alt="space" class="carousel-arrow-img" width="21" height="42" />
+        </label>
+
+        <label for="slide1" class="right-arrow">
+          <img src="./svg/arrow-right.svg" alt="space" class="carousel-arrow-img" width="21" height="42" />
+        </label>
+        <label for="slide2" class="right-arrow">
+          <img src="./svg/arrow-right.svg" alt="space" class="carousel-arrow-img" width="21" height="42" />
+        </label>
+
+        <div class="carousel">
+          <ul>
+            <li>
+              <div class="carousel-heading">
+                <h4>Offer Fast</h4>
+                <h3>Reliable Service</h3>
+                <span>Over 35 Years Of Quality Auto Service</span>
+              </div>
+              <img src="./pictures/slide1.jpg" alt="slide 1" />
+            </li>
+            <li>
+              <div class="carousel-heading">
+                <h4>Multi-Point v bd</h4>
+                <h3>Vehicle Inspection</h3>
+                <span>No-charge start, Stop and Steering check</span>
+              </div>
+              <img src="./pictures/slide2.jpg" alt="slide 2">
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="services-section">
+        <div class="section-header">
+          <span class="section-heading">Our Featured Services</span>
+          <span class="section-description">We offer full service auto repair & maintenance</span>
+        </div>
+        <div class="services-container">
+          <a href="./service.html" class="service">
+            <img src="./pictures/service1.jpg" alt="service 1">
+            <div class="service-body">
+              <span class="service-header">Preventative Maintenance</span>
+              <p class="service-description">
+                The best way to minimize breakdowns is doing routine maintenance
+              </p>
+            </div>
+          </a>
+          <a href="./service.html" class="service">
+            <img src="./pictures/service2.jpg" alt="service 2">
+            <div class="service-body">
+              <span class="service-header">Brake Repair & Services</span>
+              <p class="service-description">
+                Brakes wear out over time requiring service
+              </p>
+            </div>
+          </a>
+          <a href="./service.html" class="service">
+            <img src="./pictures/service3.jpg" alt="service 3">
+            <div class="service-body">
+              <span class="service-header">Transmission Service & Repair</span>
+              <p class="service-description">
+                The transmission is complicated and important components of your car
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="testimonials-section">
+        <div class="section-header section-header-inverted">
+          <span class="section-heading">Customer reviews</span>
+        </div>
+        <div class="testimonials-container">
+          <div class="testimonial">
+            <div class="testimonial-img">
+              <img src="./pictures/testimonial1.jpg" alt="testimonial 1">
+            </div>
+            <div class="testimonial-body">
+              <p class="testimonial-text">
+                I would recommend Car Repair Service to anyone without a doubt! Very professional and reliable. The best
+                customer service and reasonable prices.
+              </p>
+              <p class="testimonial-customer">
+                <span>– Silvia R. Brown,</span>Manager
+              </p>
+            </div>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial-img">
+              <img src="./pictures/testimonial2.jpg" alt="testimonial 2">
+            </div>
+            <div class="testimonial-body">
+              <p class="testimonial-text">
+                I would recommend Car Repair Service to anyone without a doubt! Very professional and reliable. The best
+                customer service and reasonable prices.
+              </p>
+              <p class="testimonial-customer">
+                <span>– Jeffrey Holton,</span>Electrician
+              </p>
+            </div>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial-img">
+              <img src="./pictures/testimonial3.jpg" alt="testimonial 3">
+            </div>
+            <div class="testimonial-body">
+              <p class="testimonial-text">
+                I would recommend Car Repair Service to anyone without a doubt! Very professional and reliable. The best
+                customer service and reasonable prices.
+              </p>
+              <p class="testimonial-customer">
+                <span>– Rachel Bell,</span>Manager
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-body">
+        <ul class="footer-menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="./pricing.html">Pricing</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+        <div class="footer-contacts">
+          <h3>Contact info</h3>
+          <ul>
+            <li>
+              <address>2605 Caton Hill Road, Woodbridge, VA 22192</address>
+            </li>
+            <li><a href="tel:1-800-1234567">Phone: 1-800-1234567</a></li>
+            <li><a href="mailto:officeone@youremail.com">Email: officeone@youremail.com</a></li>
+          </ul>
+        </div>
+        <div class="footer-opening-hours">
+          <h3>Opening hours</h3>
+          <ul>
+            <li>Mon-Fri: <span class="footer-hours">7:00 AM - 6:00 PM</span></li>
+            <li>Saturday: <span class="footer-hours">9:00 AM - 5:00 PM</span></li>
+            <li>Sunday: <span class="footer-hours">Closed</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        Copyright ©2023; Designed by Ailaksey
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
